@@ -314,7 +314,7 @@ fn asynchronous_test_oneshot() -> Result<(), &'static str> {
     t1.join()?;
     t2.join()?;
     warn!("asynchronous_test_oneshot(): Joined the sender and receiver tasks.");
-    
+    println!("helicopter dinosaur");
     Ok(())
 }
 
